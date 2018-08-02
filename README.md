@@ -25,3 +25,8 @@ ls -l /var/crash/
 ```
 sudo rm /var/crash/*
 ```
+# Solve Pip problem
+```
+sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
+
+```
