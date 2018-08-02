@@ -17,3 +17,11 @@ deb file install..
 ```
 sudo apt install ./packagename.deb
 ```
+# Show all crash
+```
+ls -l /var/crash/
+```
+# Remove crash
+```
+sudo rm /var/crash/*
+```
