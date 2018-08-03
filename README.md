@@ -31,3 +31,8 @@ sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
 
 ```
 python3 get-pip.py pip==10.0.1 --user
+
+delete  swapfile
+```
+sudo swapoff -a -v
+```
