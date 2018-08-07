@@ -36,3 +36,8 @@ delete  swapfile
 ```
 sudo swapoff -a -v
 ```
+```
+sudo vim ~/.bashrc
+Then execute the command below to make the change take effect:
+source ~/.bashrc
+```
