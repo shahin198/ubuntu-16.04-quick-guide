@@ -41,3 +41,9 @@ sudo vim ~/.bashrc
 Then execute the command below to make the change take effect:
 source ~/.bashrc
 ```
+# Node Js Update
+```
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+```
