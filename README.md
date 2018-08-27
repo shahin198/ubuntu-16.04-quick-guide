@@ -75,3 +75,21 @@ Ubuntu Precise (12.04) and Utopic (14.10) are not supported:
     Precise doesn't have a new enough Qt package in its repository by default, which is a dependency
     Launchpad doesn't support Utopic any more, as that has reached its End of Life
 ```
+# install .sh
+```
+
+
+Give execute permission to your script:
+
+chmod +x /path/to/yourscript.sh
+
+And to run your script:
+
+/path/to/yourscript.sh
+
+Since . refers to the current directory: if yourscript.sh is in the current directory, you can simplify this to:
+
+./yourscript.sh
+
+
+```
