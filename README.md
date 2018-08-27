@@ -93,3 +93,22 @@ Since . refers to the current directory: if yourscript.sh is in the current dire
 
 
 ```
+# pcsc
+```
+Install pcscd
+
+Installing pcscd package on Ubuntu 16.04 (Xenial Xerus) is as easy as running the following command on terminal:
+
+sudo apt-get update
+sudo apt-get install pcscd
+
+pcscd package information
+distro 	Ubuntu 16.04 (Xenial Xerus)
+section 	Universe
+name 	pcscd
+version 	1.8.14-1ubuntu1
+description 	Middleware to access a smart card using PC/SC (daemon side)
+subsection 	misc
+website 	pcsclite.alioth.debian.org
+maintainer 	Ubuntu Developers
+```
