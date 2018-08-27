@@ -47,3 +47,31 @@ sudo npm cache clean -f
 sudo npm install -g n
 sudo n stable
 ```
+# Sqlite3 browser
+```
+Ubuntu and Derivatives
+Stable release
+
+For Ubuntu and derivaties, @deepsidhu1313 provides a PPA with our latest release here:
+
+    https://launchpad.net/~linuxgndu/+archive/ubuntu/sqlitebrowser
+
+To add this ppa just type in these commands in terminal:
+
+   sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
+
+Then update the cache using:
+
+   sudo apt-get update
+
+Install the package using:
+
+   sudo apt-get install sqlitebrowser
+
+Ubuntu 14.04.X, 15.04.X, 15.10.X and 16.04.X are supported for now (until Launchpad decides to discontinue building for any series).
+
+Ubuntu Precise (12.04) and Utopic (14.10) are not supported:
+
+    Precise doesn't have a new enough Qt package in its repository by default, which is a dependency
+    Launchpad doesn't support Utopic any more, as that has reached its End of Life
+```
