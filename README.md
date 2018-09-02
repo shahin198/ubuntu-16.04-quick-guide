@@ -1,4 +1,15 @@
 # ubuntu-16.04-quick-guide
+
+# paint
+```
+sudo apt-get install kolourpaint4
+
+```
+# Screen recoder
+```
+sudo apt install vokoscreen
+
+```
 # rpm file install
 Run this command to install alien and other necessary packages:
 ```
