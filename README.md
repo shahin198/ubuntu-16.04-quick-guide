@@ -1,5 +1,11 @@
 # ubuntu-16.04-quick-guide
-
+# jupyter help line
+```
+Esc + m cell view markdown
+image add
+![title](img/picture.png)
+and shift +Enter
+```
 # paint
 ```
 sudo apt-get install kolourpaint4
