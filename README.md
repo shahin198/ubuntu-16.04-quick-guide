@@ -1,4 +1,10 @@
 # ubuntu-16.04-quick-guide
+
+# Audio recorder
+```
+sudo add-apt-repository ppa:audio-recorder/ppa
+sudo apt update; sudo apt install audio-recorder
+```
 # jupyter help line
 ```
 Esc + m cell view markdown
