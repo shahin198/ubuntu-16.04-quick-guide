@@ -1,4 +1,29 @@
 # ubuntu-16.04-quick-guide
+Reader 1: Chicony HP Skylab USB Smartcard Keyboard [HP Skylab Smartcard Reader] (18031600000399) 01 00
+  Card state: Card inserted, 
+  ATR: 3B 6E 00 00 80 31 80 66 B1 A3 01 01 21 0A 83 00 90 00
+
+ATR: 3B 6E 00 00 80 31 80 66 B1 A3 01 01 21 0A 83 00 90 00
++ TS = 3B --> Direct Convention
++ T0 = 6E, Y(1): 0110, K: 14 (historical bytes)
+  TB(1) = 00 --> VPP is not electrically connected
+  TC(1) = 00 --> Extra guard time: 0
++ Historical bytes: 80 31 80 66 B1 A3 01 01 21 0A 83 00 90 00
+  Category indicator byte: 80 (compact TLV data object)
+    Tag: 3, len: 1 (card service data byte)
+      Card service data byte: 80
+        - Application selection: by full DF name
+        - EF.DIR and EF.ATR access services: by GET RECORD(s) command
+        - Card with MF
+    Tag: 6, len: 6 (pre-issuing data)
+      Data: B1 A3 01 01 21 0A
+    Tag: 8, len: 3 (status indicator)
+      LCS (life card cycle): 00 (No information given)
+      SW: 9000 (Normal processing.)
+
+Possibly identified card (using /home/nybsys/.cache/smartcard_list.txt):
+3B 6E 00 00 80 31 80 66 B1 A3 01 01 21 0A 83 00 90 00
+	French "Livret A" issued by "La banque postale" (Bank)
 
 # Audio recorder
 ```
