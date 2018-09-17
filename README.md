@@ -1,4 +1,8 @@
 # ubuntu-16.04-quick-guide
+# view GPU Detail
+```
+nvidia-smi
+```
 Reader 1: Chicony HP Skylab USB Smartcard Keyboard [HP Skylab Smartcard Reader] (18031600000399) 01 00
   Card state: Card inserted, 
   ATR: 3B 6E 00 00 80 31 80 66 B1 A3 01 01 21 0A 83 00 90 00
