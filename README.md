@@ -1,4 +1,9 @@
 # ubuntu-16.04-quick-guide
+
+# audio reset
+```
+sudo alsa force-reload
+```
 # view GPU Detail
 ```
 nvidia-smi
