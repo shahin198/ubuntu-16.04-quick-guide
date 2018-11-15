@@ -94,6 +94,19 @@ delete  swapfile
 sudo swapoff -a -v
 ```
 ```
+$apt-get install python-pip
+$which pip
+/usr/bin/pip
+
+$pip install -U pip
+$which pip
+/usr/bin/pip
+
+$hash -r
+$which pip
+/usr/local/bin/pip
+```
+```
 sudo vim ~/.bashrc
 Then execute the command below to make the change take effect:
 source ~/.bashrc
