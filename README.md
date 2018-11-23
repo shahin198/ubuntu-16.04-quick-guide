@@ -87,6 +87,12 @@ sudo rm /var/crash/*
 sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
 
 ```
+# Pip3 remove
+```
+sudo apt remove python3-pip
+sudo apt purge python3-pip
+sudo apt autoremove
+```
 python3 get-pip.py pip==10.0.1 --user
 
 delete  swapfile
