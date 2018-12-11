@@ -1,4 +1,6 @@
 # ubuntu-16.04-quick-guide
+# Makefile tutorial
+https://www.youtube.com/watch?v=i3tYp88YHbI
 
 # Clean
 ```
