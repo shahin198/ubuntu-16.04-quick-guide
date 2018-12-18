@@ -1,7 +1,7 @@
 # ubuntu-16.04-quick-guide
 # Makefile tutorial
 https://www.youtube.com/watch?v=i3tYp88YHbI
-
+https://www.freelancer.com/projects/php/create-mqtt-client-plugin/
 # Clean
 ```
 sudo apt autoclean
