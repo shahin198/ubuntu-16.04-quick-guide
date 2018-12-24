@@ -2,6 +2,10 @@
 # Makefile tutorial
 https://www.youtube.com/watch?v=i3tYp88YHbI
 
+# remove folder
+```
+sudo rm -rf folderName
+```
 # how to set environment variables
 ```
 nano .profile
