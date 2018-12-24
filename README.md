@@ -2,6 +2,13 @@
 # Makefile tutorial
 https://www.youtube.com/watch?v=i3tYp88YHbI
 
+# how to set environment variables
+```
+nano .profile
+nano .bashrc
+sudo nano /etc/environment
+```
+
 # Clean
 ```
 sudo apt autoclean
