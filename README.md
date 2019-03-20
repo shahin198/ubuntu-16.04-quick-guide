@@ -1,4 +1,9 @@
 # ubuntu-16.04-quick-guide
+
+# Motherboar info
+```
+sudo dmidecode -t 2
+```
 # Makefile tutorial
 https://www.youtube.com/watch?v=i3tYp88YHbI
 
