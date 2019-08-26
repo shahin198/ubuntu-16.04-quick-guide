@@ -225,3 +225,6 @@ ps ax | grep test.py
 
 # TeamViewer
 https://www.teamviewer.com/en-us/download/linux/
+
+sudo apt-get -f install ./teamviewer_14.5.1691_amd64.deb
+
